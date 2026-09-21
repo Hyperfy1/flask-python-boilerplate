@@ -18,6 +18,7 @@ def read_root():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vercel + Flask</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.ico">
+        <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
         <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body {
