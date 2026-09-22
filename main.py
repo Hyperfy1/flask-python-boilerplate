@@ -19,6 +19,10 @@ def read_root():
         <title>Vercel + Flask</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.ico">
         <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+        <script>
+            window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/speed-insights/script.js"></script>
         <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body {
